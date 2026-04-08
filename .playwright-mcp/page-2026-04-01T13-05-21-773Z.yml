@@ -1,0 +1,98 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e56]: Create a pricing card component with a Pro plan at $29/month, featuring 5 key benefits, a highlighted CTA button, and a toggle for monthly/annual billing
+          - img [ref=e59]
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e39]:
+        - img [ref=e41]
+        - heading "Welcome to UI Generator" [level=3] [ref=e43]
+        - paragraph [ref=e44]: Start building React components with AI assistance
+        - paragraph [ref=e45]: Ask the AI to create your first component to see it live here
+  - generic [active]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - navigation [ref=e67]:
+            - button "previous" [disabled] [ref=e68]:
+              - img "previous" [ref=e69]
+            - generic [ref=e71]:
+              - generic [ref=e72]: 1/
+              - text: "1"
+            - button "next" [disabled] [ref=e73]:
+              - img "next" [ref=e74]
+          - img
+        - generic [ref=e76]:
+          - link "Next.js 15.5.14 (outdated) Turbopack" [ref=e77] [cursor=pointer]:
+            - /url: https://nextjs.org/docs/messages/version-staleness
+            - img [ref=e78]
+            - generic "An outdated version detected (latest is 16.2.2), upgrade is highly recommended!" [ref=e80]: Next.js 15.5.14 (outdated)
+            - generic [ref=e81]: Turbopack
+          - img
+      - dialog "Build Error" [ref=e83]:
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e90]: Build Error
+              - generic [ref=e91]:
+                - button "Copy Error Info" [ref=e92] [cursor=pointer]:
+                  - img [ref=e93]
+                - link "Go to related documentation" [ref=e95] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/messages/module-not-found
+                  - img [ref=e96]
+                - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e98] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                  - img [ref=e99]
+            - paragraph [ref=e108]: "Module not found: Can't resolve '@ai-sdk/openai'"
+          - generic [ref=e110]:
+            - generic [ref=e112]:
+              - img [ref=e114]
+              - generic [ref=e118]: ./src/lib/provider.ts (1:1)
+              - button "Open in editor" [ref=e119] [cursor=pointer]:
+                - img [ref=e121]
+            - generic [ref=e124]:
+              - generic [ref=e125]: Module not found
+              - generic [ref=e126]: ": Can't resolve"
+              - text: "'@ai-sdk/openai' >"
+              - generic [ref=e127]: 1 |
+              - text: import
+              - generic [ref=e128]: "{ openai }"
+              - text: from "@ai-sdk/openai";
+              - generic [ref=e129]: "|"
+              - text: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              - generic [ref=e130]: 2 |
+              - generic [ref=e131]: // ...
+              - generic [ref=e132]: 3 |
+              - generic [ref=e133]: 4 |
+              - text: import
+              - generic [ref=e134]: "{ anthropic }"
+              - text: from "@ai-sdk/anthropic";
+              - generic [ref=e135]:
+                - text: "Import trace: App Route: ./src/lib/provider.ts ./src/app/api/chat/route.ts"
+                - link "https://nextjs.org/docs/messages/module-not-found" [ref=e136] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/messages/module-not-found
+        - generic [ref=e137]:
+          - generic [ref=e138]: "1"
+          - generic [ref=e139]: "2"
+    - button "Open issues overlay" [ref=e146] [cursor=pointer]:
+      - img [ref=e148]
+      - generic [ref=e150]:
+        - generic [ref=e151]: "0"
+        - generic [ref=e152]: "1"
+      - generic [ref=e153]: Issue
+  - alert [ref=e46]

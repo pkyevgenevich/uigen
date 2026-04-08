@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--executable-path",
+        "/Applications/Arc.app/Contents/MacOS/Arc"
+      ]
+    }
+  }
+}

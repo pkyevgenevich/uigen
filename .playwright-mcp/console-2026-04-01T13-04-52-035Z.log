@@ -1,0 +1,77 @@
+[    5116ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[   27834ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   27967ms] [ERROR] ./src/lib/provider.ts:1:1
+Module not found: Can't resolve '@ai-sdk/openai'
+> 1 | import { openai } from "@ai-sdk/openai";                                                                                                                     
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |   // ...                                                                                                                                                         
+  3 |
+  4 | import { anthropic } from "@ai-sdk/anthropic";
+
+Import trace:
+  App Route:
+    ./src/lib/provider.ts
+    ./src/app/api/chat/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   27973ms] [LOG] {file: Object} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js:16058
+[   28069ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   28424ms] [ERROR] ./src/lib/provider.ts:1:1
+Module not found: Can't resolve '@ai-sdk/openai'
+> 1 | import { openai } from "@ai-sdk/openai";                                                                                                                     
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |   // ...                                                                                                                                                         
+  3 |
+  4 | import { anthropic } from "@ai-sdk/anthropic";
+
+Import trace:
+  App Route:
+    ./src/lib/provider.ts
+    ./src/app/api/chat/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   28480ms] [ERROR] ./src/lib/provider.ts:1:1
+Module not found: Can't resolve '@ai-sdk/openai'
+> 1 | import { openai } from "@ai-sdk/openai";                                                                                                                     
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |   // ...                                                                                                                                                         
+  3 |
+  4 | import { anthropic } from "@ai-sdk/anthropic";
+
+Import trace:
+  App Route:
+    ./src/lib/provider.ts
+    ./src/app/api/chat/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   28582ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   28637ms] [ERROR] ./src/lib/provider.ts:1:1
+Module not found: Can't resolve '@ai-sdk/openai'
+> 1 | import { openai } from "@ai-sdk/openai";                                                                                                                     
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |   // ...                                                                                                                                                         
+  3 |
+  4 | import { anthropic } from "@ai-sdk/anthropic";
+
+Import trace:
+  App Route:
+    ./src/lib/provider.ts
+    ./src/app/api/chat/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   28638ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/chat:0
+[   29827ms] [ERROR] ./src/lib/provider.ts:1:1
+Module not found: Can't resolve '@ai-sdk/openai'
+> 1 | import { openai } from "@ai-sdk/openai";                                                                                                                     
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |   // ...                                                                                                                                                         
+  3 |
+  4 | import { anthropic } from "@ai-sdk/anthropic";
+
+Import trace:
+  App Route:
+    ./src/lib/provider.ts
+    ./src/app/api/chat/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   29855ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949

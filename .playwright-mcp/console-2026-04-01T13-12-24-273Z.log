@@ -1,0 +1,6 @@
+[     237ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/5a8db_next_dist_compiled_react-dom_1363b6ab._.js:14537
+[    8342ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/5a8db_next_dist_client_31d23e5f._.js:5949
+[    8373ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/5a8db_next_dist_client_31d23e5f._.js:5809
+[    9547ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3000/api/chat:0
+[   83058ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/5a8db_next_dist_client_31d23e5f._.js:5949
+[   83521ms] [LOG] [Fast Refresh] done in 521ms @ http://localhost:3000/_next/static/chunks/5a8db_next_dist_client_31d23e5f._.js:5809
