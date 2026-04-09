@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e63]: create a simple hello world component
+            - img [ref=e66]
+          - generic [ref=e69]:
+            - img [ref=e72]
+            - generic [ref=e77]:
+              - generic [ref=e80]: Created /App.jsx
+              - separator [ref=e81]
+              - code [ref=e84]: "// /App.jsx import React from 'react'; export default function App() { return ( <div className=\"min-h-screen bg-gray-950\"> <main className=\"mx-auto flex min-h-screen max-w-2xl flex-col items-center justify-center px-6\"> <div className=\"w-full rounded-2xl bg-white/5 p-8 text-center shadow-sm ring-1 ring-white/10\"> <h1 className=\"text-3xl font-bold tracking-tight text-white\">Hello, world</h1> <p className=\"mt-2 text-sm text-gray-300\">Welcome to your React app.</p> </div> </main> </div> ); }"
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - generic [ref=e22]:
+            - button "Upload image" [ref=e23]:
+              - img [ref=e24]
+            - button [disabled] [ref=e28]:
+              - img [ref=e29]
+    - separator [ref=e32]
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - tablist [ref=e37]:
+          - tab "Preview" [selected] [ref=e38]
+          - tab "Code" [ref=e39]
+        - generic [ref=e40]:
+          - button "Sign In" [ref=e41]
+          - button "Sign Up" [ref=e42]
+      - iframe [ref=e85]:
+        - main [ref=f2e4]:
+          - generic [ref=f2e5]:
+            - heading "Hello, world" [level=1] [ref=f2e6]
+            - paragraph [ref=f2e7]: Welcome to your React app.
+  - alert [ref=e53]

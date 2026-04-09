@@ -30,11 +30,11 @@ export async function POST(req: Request) {
 
   const model = getLanguageModel();
   // Use fewer steps for mock provider to prevent repetition
-  const isMockProvider = !process.env.ANTHROPIC_API_KEY;
+  const isMockProvider = !process.env.ANTHROPIC_API_KEY && !process.env.OPENAI_API_KEY;
   const result = streamText({
     model,
     messages,
-    maxTokens: 10_000,
+    ...(!process.env.OPENAI_API_KEY ? { maxTokens: 10_000 } : {}),
     maxSteps: isMockProvider ? 4 : 40,
     onError: (err: any) => {
       console.error(err);

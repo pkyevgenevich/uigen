@@ -15,7 +15,7 @@ export function buildFileManagerTool(fileSystem: VirtualFileSystem) {
         .describe("The path to the file or directory to rename or delete"),
       new_path: z
         .string()
-        .optional()
+        .nullable()
         .describe("The new path. Only provide when renaming or moving a file."),
     }),
     execute: async ({ command, path, new_path }) => {

@@ -20,7 +20,10 @@ interface ChatContextType {
   messages: Message[];
   input: string;
   handleInputChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
-  handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+  handleSubmit: (
+    e: React.FormEvent<HTMLFormElement>,
+    options?: { experimental_attachments?: FileList }
+  ) => void;
   status: string;
 }
 

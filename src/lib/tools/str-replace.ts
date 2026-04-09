@@ -4,11 +4,11 @@ import { VirtualFileSystem } from "@/lib/file-system";
 const TextEditorParameters = z.object({
   command: z.enum(["view", "create", "str_replace", "insert", "undo_edit"]),
   path: z.string(),
-  file_text: z.string().optional(),
-  insert_line: z.number().optional(),
-  new_str: z.string().optional(),
-  old_str: z.string().optional(),
-  view_range: z.array(z.number()).optional(),
+  file_text: z.string().nullable(),
+  insert_line: z.number().nullable(),
+  new_str: z.string().nullable(),
+  old_str: z.string().nullable(),
+  view_range: z.array(z.number()).nullable(),
 });
 
 export const buildStrReplaceTool = (fileSystem: VirtualFileSystem) => {

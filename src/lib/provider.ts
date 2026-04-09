@@ -780,7 +780,7 @@ export function getLanguageModel(): LanguageModelV1 {
   const anthropicKey = process.env.ANTHROPIC_API_KEY;
 
   if (openaiKey && openaiKey.trim() !== "") {
-    return openai("gpt-4o-mini") as unknown as LanguageModelV1;
+    return openai("gpt-5.4-nano") as unknown as LanguageModelV1;
   }
 
   if (anthropicKey && anthropicKey.trim() !== "") {
